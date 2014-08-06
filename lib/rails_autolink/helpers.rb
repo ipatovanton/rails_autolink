@@ -70,7 +70,7 @@ module RailsAutolink
 
         private
 
-          AUTO_LINK_RE = /((http|https|ftp):\/\/[\w?=&.\/-;#~%-]+(?![\w\s?&.\/;#~%"=-]*>))/g
+          AUTO_LINK_RE = /((http|https|ftp):\/\/[\w?=&.\/-;#~%-]+(?![\w\s?&.\/;#~%"=-]*>))/
 
           # regexps for determining context, used high-volume
           AUTO_LINK_CRE = [/<[^>]+$/, /^[^>]*>/, /<a\b.*?>/i, /<\/a>/i]
